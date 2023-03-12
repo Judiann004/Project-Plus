@@ -76,7 +76,7 @@ ul {
       rgba(0, 0, 255, 0.3) 10%,
       rgba(0, 0, 255, 0.3) 10%
     ),
-    url(/Weather-image.jpg);
+    url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/071/155/original/Weather-image.jpg?1678627033);
   background-size: cover;
   background-position: inherit;
   max-width: 600px;
