@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="Weather-app">
+       <form class="search-form" id="search-form">
+          <div class="row">
+            <div class="col-6">
+              <input
+                type="search"
+                placeholder="Type a city.."
+                autofocus="on"
+                autocomplete="off"
+                class="form-control shadow-sm" id="city-input"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary shadow-sm"
+              />
+            </div>
+            <div class="col-3">
+              <button class="btn btn.success w-100" id="current-location">
+               Current
+              </button>
+            </div>
+          </div>
+        </form>
+        <div class="row">
+            <div class="col-6">
+          <div class="clearfix">
+      <img
+        src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png"
+        class="Weather_cloud float-left" id="icon"
+      />
+      <div class="float-left">
+     <span class="Temperature" id="temperature"></span>
+     <span class="units"><a href="" id="celsius" class="active">°C</a> | <a href="" id="fahrenheit">°F</a></span>
+     </div>
+     </div>
+     <div>
+     <ul>
+         <li class="Climate">
+        Humidity: <span id="humidity"></span>% 
+        </li>
+         <li class="Climate">
+          Wind: <span id="wind"></span>km/h  
+        </li>
+    </ul>
+  </div>
+         <div class="weather-forecast" id="forecast">   
+    </div>
+    </div>
+    
+    <div class="col-6">
+        <ul class="weather_cloud">
+            <li class="Country" id="city">
+        
+            </li>
+            <li class="Day" id="date"></li>
+            <li class="express" id="expression">
+  
+            </li>
+        </ul>
+    </div>
+    </div>
+    <div class="sourcecode">
+      <a  href="https://github.com/Judiann004/Vanilla-Weather-App">Open source Code</a> By Odje Judiann Praise
+    </div>
+  
+
+    <script src="index.js"></script>
+  </body>
+</html>

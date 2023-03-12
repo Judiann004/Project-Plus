@@ -1,0 +1,133 @@
+.Weather_cloud {
+  display: inline-block;
+  height: 60px;
+  margin-top: unset;
+  vertical-align: top;
+  width: 60px;
+}
+
+.Cloud-num {
+  font-family: Google Sans, arial, sans-serif;
+  font-weight: 400;
+  display: inline;
+  font-size: 30px;
+}
+
+.Faherenit {
+  color: #70757a;
+  text-decoration: none;
+}
+
+.Faherenit:hover {
+  text-decoration: none;
+}
+
+.weather_img {
+  height: 64px;
+  width: 64px;
+}
+
+.Temperature {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -32px;
+}
+
+ul {
+  color: #70757a;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 5px;
+  padding-top: 9px;
+  position: relative;
+  top: 15px;
+  list-style: none;
+}
+
+.Country {
+  color: #202124;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.Day.express {
+  color: #70757a;
+  font-size: 16px;
+}
+
+.Climate {
+  position: relative;
+  top: -80px;
+  left: 190px;
+}
+
+.Weather-app {
+  border: 1px solid #dadde1;
+  padding: 20px;
+  margin: 20px;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 255, 0.3) 10%,
+      rgba(0, 0, 255, 0.3) 10%
+    ),
+    url(/Weather-image.jpg);
+  background-size: cover;
+  background-position: inherit;
+  max-width: 600px;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+.weather_cloud {
+  position: relative;
+  top: -10px;
+  left: 100px;
+}
+
+.sourcecode {
+  position: relative;
+  top: 45px;
+}
+
+.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  top: -30px;
+  left: 120px;
+}
+
+.weather-date {
+  font-size: 16px;
+  color: #ffff00;
+  opacity: 0.8;
+}
+
+.weather-temp-mini {
+  opacity: 0.8;
+  color: #ffa500;
+}
+
+.weather-temp-max {
+  color: #ff0000;
+}
+
+.weather-Temp {
+  font-size: 13px;
+}
